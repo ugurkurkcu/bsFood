@@ -1,0 +1,166 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@100;300;400;500;600&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+  list-style: none;
+  font-family: "Poppins", sans-serif;
+}
+html::-webkit-scrollbar{
+    width: 10px;
+}
+html::-webkit-scrollbar-track{
+    background: transparent;
+}
+html::-webkit-scrollbar-thumb{
+    background: #e6432d;
+    border-radius: 5px;
+    height: 25vh;
+}
+
+/* navbar */
+
+#navbar {
+  background: transparent;
+  padding: 0 9% 0;
+}
+#logo img {
+  width: 190px;
+  padding: 0 9% 0;
+}
+.nav-item .nav-link {
+  transition: all 0.5s;
+}
+.nav-item .nav-link:hover {
+  color: #e6432d !important;
+}
+#navbar input {
+  border-radius: 50px;
+}
+/* #btn {
+  border-radius: 5px;
+  padding: 5px;
+  color: #e6432d;
+  border: 1px solid #e6432d;
+  background: transparent;
+}
+#btn:hover {
+  background-color: #e6432d;
+  color: #fff;
+} */
+
+/*! navbar end */
+
+/* home section */
+.home {
+  /* width: 100%;
+  height: 100vh; */
+  padding: 5px 11% 80px;
+  /* display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  position: relative; */
+}
+.home .img {
+  flex: 1 1 300px;
+}
+.home .img img {
+  margin-left: 60px;
+}
+.home-content {
+  flex: 1 1 400px;
+  margin-top: 30px;
+}
+.home-content h3 {
+  font-size: 40px;
+  font-weight: 700;
+}
+@media screen and (max-width: 870px) {
+  .home .img img {
+    margin-left: 0;
+  }
+}
+/*! home section end */
+
+/* top section */
+.top-section {
+  padding: 10px 11% 100px;
+}
+.top-section h5 {
+  color: #e6432d;
+  /* text-align: center; */
+}
+.top-section h3 {
+  /* text-align: center; */
+  font-weight: 600;
+}
+/* .top-section .row {
+  margin-top: 30px;
+  align-items: center;
+} */
+.top-section .row .card img {
+  width: 200px;
+  /* margin: auto; */
+}
+/* .top-section .card-body{
+    text-align: center;
+}  */
+/* .top-section .card-body h1{
+    font-size: 25px;
+    font-weight: 600;
+} */
+
+/*! top section end */
+
+/* menu section */
+.menu {
+  padding: 100px 11% 100px;
+}
+.rating {
+  white-space: nowrap;
+}
+/*! menu section end */
+
+/* order section */
+.order {
+  padding: 100px 11% 100px;
+}
+
+.order textarea {
+  resize: none;
+}
+/*! order section end */
+
+/* review section */
+.reviews {
+  padding: 100px 11% 100px;
+}
+/*! review section end */
+
+/* contact section */
+.contact {
+  padding: 100px 11% 100px;
+}
+#comment {
+  resize: none;
+}
+/*! contact section end */
+
+/* footer section */
+#footer {
+  cursor: pointer;
+}
+#footer img {
+  width: 250px;
+}
+#footer i {
+  transition: all 0.3s;
+}
+#footer i:hover {
+  background-color: #e6432d;
+  color: #fff;
+  border-radius: 50%;
+}
